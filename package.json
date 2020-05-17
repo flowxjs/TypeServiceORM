@@ -1,5 +1,5 @@
 {
-  "name": "@flowxjs/typeorm",
+  "name": "@flowx/typeorm",
   "version": "1.0.0",
   "description": "typeorm for typeservice",
   "main": "dist/index.js",
