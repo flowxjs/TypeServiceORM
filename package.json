@@ -1,0 +1,45 @@
+{
+  "name": "@flowxjs/typeorm",
+  "version": "1.0.0",
+  "description": "typeorm for typeservice",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/flowxjs/TypeServiceORM.git"
+  },
+  "keywords": [
+    "typeorm",
+    "typeservice"
+  ],
+  "author": "cevio <evio@vip.qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flowxjs/TypeServiceORM/issues"
+  },
+  "homepage": "https://github.com/flowxjs/TypeServiceORM#readme",
+  "devDependencies": {
+    "@reactivex/rxjs": "^6.5.5",
+    "@types/node": "^13.13.5",
+    "@types/npmlog": "^4.1.2",
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.5",
+    "rxjs-compat": "^6.5.5",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@flowx/container": "^1.0.3",
+    "typeorm": "^0.2.24"
+  },
+  "peerDependencies": {
+    "@types/npmlog": "^4.1.2",
+    "@reactivex/rxjs": "^6.5.5",
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs-compat": "^6.5.5",
+    "rxjs": "^6.5.5"
+  }
+}
