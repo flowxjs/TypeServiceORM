@@ -5,7 +5,7 @@ import { Observer, Observable } from '@reactivex/rxjs';
 export class TypeORM {
   constructor(private readonly container: TypeContainer) {}
 
-  public useEntity(options: ConnectionOptions): [
+  public useConnection(options: ConnectionOptions): [
     (name: string) => void,
     (caller: (conn: Connection) => Promise<void>) => void
   ] {

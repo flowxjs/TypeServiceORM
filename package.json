@@ -1,6 +1,6 @@
 {
   "name": "@flowx/typeorm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "typeorm for typeservice",
   "main": "dist/index.js",
   "scripts": {
