@@ -1,6 +1,6 @@
 {
   "name": "@flowx/typeorm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "typeorm for typeservice",
   "main": "dist/index.js",
   "scripts": {
@@ -31,7 +31,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@flowx/container": "^1.0.3",
+    "@flowx/container": "^1.0.12",
     "typeorm": "^0.2.24"
   },
   "peerDependencies": {
