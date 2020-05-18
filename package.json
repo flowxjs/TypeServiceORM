@@ -1,6 +1,6 @@
 {
   "name": "@flowx/typeorm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "typeorm for typeservice",
   "main": "dist/index.js",
   "scripts": {
@@ -13,6 +13,9 @@
   "keywords": [
     "typeorm",
     "typeservice"
+  ],
+  "files": [
+    "dist"
   ],
   "author": "cevio <evio@vip.qq.com>",
   "license": "MIT",
